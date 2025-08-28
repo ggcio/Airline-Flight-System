@@ -1,0 +1,170 @@
+{
+  "adjacencyList": {
+    "IPH": [
+      {
+        "startingCode": "IPH",
+        "destinationCode": "KUL",
+        "cost": 100.0,
+        "time": 1.25
+      },
+      {
+        "startingCode": "IPH",
+        "destinationCode": "PEN",
+        "cost": 85.0,
+        "time": 1.0
+      }
+    ],
+    "LGK": [
+      {
+        "startingCode": "LGK",
+        "destinationCode": "KCH",
+        "cost": 320.0,
+        "time": 3.0
+      }
+    ],
+    "BKI": [
+      {
+        "startingCode": "BKI",
+        "destinationCode": "KCH",
+        "cost": 200.0,
+        "time": 2.0
+      },
+      {
+        "startingCode": "BKI",
+        "destinationCode": "MYY",
+        "cost": 150.0,
+        "time": 1.5
+      }
+    ],
+    "KCH": [],
+    "KUL": [
+      {
+        "startingCode": "KUL",
+        "destinationCode": "PEN",
+        "cost": 150.0,
+        "time": 1.5
+      },
+      {
+        "startingCode": "KUL",
+        "destinationCode": "LGK",
+        "cost": 120.0,
+        "time": 1.25
+      },
+      {
+        "startingCode": "KUL",
+        "destinationCode": "JHB",
+        "cost": 80.0,
+        "time": 1.0
+      },
+      {
+        "startingCode": "KUL",
+        "destinationCode": "KCH",
+        "cost": 280.0,
+        "time": 2.5
+      }
+    ],
+    "JHB": [
+      {
+        "startingCode": "JHB",
+        "destinationCode": "KBR",
+        "cost": 130.0,
+        "time": 2.0
+      },
+      {
+        "startingCode": "JHB",
+        "destinationCode": "PEN",
+        "cost": 140.0,
+        "time": 1.5
+      }
+    ],
+    "TGG": [
+      {
+        "startingCode": "TGG",
+        "destinationCode": "KBR",
+        "cost": 70.0,
+        "time": 1.0
+      },
+      {
+        "startingCode": "TGG",
+        "destinationCode": "KUL",
+        "cost": 160.0,
+        "time": 1.75
+      }
+    ],
+    "PEN": [
+      {
+        "startingCode": "PEN",
+        "destinationCode": "LGK",
+        "cost": 90.0,
+        "time": 1.0
+      },
+      {
+        "startingCode": "PEN",
+        "destinationCode": "KBR",
+        "cost": 110.0,
+        "time": 1.75
+      }
+    ],
+    "KBR": [],
+    "MYY": [
+      {
+        "startingCode": "MYY",
+        "destinationCode": "KCH",
+        "cost": 90.0,
+        "time": 1.0
+      }
+    ]
+  },
+  "airports": {
+    "IPH": {
+      "name": "Ipoh Sultan Azlan Shah Airport",
+      "code": "IPH",
+      "state": "Perak"
+    },
+    "LGK": {
+      "name": "Langkawi International Airport",
+      "code": "LGK",
+      "state": "Kedah"
+    },
+    "BKI": {
+      "name": "Kota Kinabalu International Airport",
+      "code": "BKI",
+      "state": "Sabah"
+    },
+    "KCH": {
+      "name": "Kuching International Airport",
+      "code": "KCH",
+      "state": "Sarawak"
+    },
+    "KUL": {
+      "name": "Kuala Lumpur International Airport",
+      "code": "KUL",
+      "state": "Selangor"
+    },
+    "JHB": {
+      "name": "Johor Bahru Senai Airport",
+      "code": "JHB",
+      "state": "Johor"
+    },
+    "TGG": {
+      "name": "Sultan Mahmud Airport",
+      "code": "TGG",
+      "state": "Terengganu"
+    },
+    "PEN": {
+      "name": "Penang International Airport",
+      "code": "PEN",
+      "state": "Penang"
+    },
+    "KBR": {
+      "name": "Sultan Ismail Petra Airport",
+      "code": "KBR",
+      "state": "Kelantan"
+    },
+    "MYY": {
+      "name": "Miri Airport",
+      "code": "MYY",
+      "state": "Sarawak"
+    }
+  }
+}
